@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chapter-02"
+name = "django-assignment"
 version = "0.1.0"
 description = ""
 authors = ["seong-eun12 <shama6112@gmail.com>"]

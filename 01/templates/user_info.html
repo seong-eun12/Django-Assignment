@@ -39,10 +39,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>{{ data.title }}</h1>
+        <h1>{{ data.이름 }}'s Information</h1>
         <table>
             {% for key, value in data.items %}
-                {% if key != 'title' %}
+                {% if key != '이름' %}
                     <tr>
                         <th>{{ key }}</th>
                         <td>{{ value }}</td>
